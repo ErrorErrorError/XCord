@@ -1,6 +1,6 @@
 //
 //  Persistence.swift
-//  DiscordX
+//  XCord
 //
 //  Created by Asad Azam on 22/03/22.
 //  Copyright © 2022 Asad Azam. All rights reserved.
@@ -14,7 +14,7 @@ struct PersistenceController {
     let container: NSPersistentContainer
 
     init(inMemory: Bool = false) {
-        container = NSPersistentContainer(name: "DiscordX")
+        container = NSPersistentContainer(name: "XCord")
         if inMemory {
             container.persistentStoreDescriptions.first!.url = URL(fileURLWithPath: "/dev/null")
         }

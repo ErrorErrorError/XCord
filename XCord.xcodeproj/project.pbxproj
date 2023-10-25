@@ -3,34 +3,36 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		13F784F72AE840F600F903C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50C6CBB6244974A700F10C5D /* Assets.xcassets */; };
+		13F784F82AE840F900F903C8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50C6CBB9244974A700F10C5D /* Preview Assets.xcassets */; };
+		13F784FB2AE8761500F903C8 /* Connection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F784FA2AE8761500F903C8 /* Connection.swift */; };
 		5028EA45244B181D003A1830 /* HelperFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5028EA44244B181D003A1830 /* HelperFunctions.swift */; };
 		5068E2DF244AA3C90012CCF7 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5068E2DE244AA3C90012CCF7 /* Constants.swift */; };
 		50C6CBB3244974A400F10C5D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C6CBB2244974A400F10C5D /* AppDelegate.swift */; };
-		50C6CBB7244974A700F10C5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50C6CBB6244974A700F10C5D /* Assets.xcassets */; };
-		50C6CBBA244974A700F10C5D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50C6CBB9244974A700F10C5D /* Preview Assets.xcassets */; };
 		50C6CBC9244975F200F10C5D /* Applescript.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C6CBC8244975F200F10C5D /* Applescript.swift */; };
-		C3110E1E27E9E95700F5F30A /* DiscordX.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3110E1D27E9E95700F5F30A /* DiscordX.swift */; };
+		C3110E1E27E9E95700F5F30A /* XCord.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3110E1D27E9E95700F5F30A /* XCord.swift */; };
 		C3110E2027E9EA6B00F5F30A /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3110E1F27E9EA6B00F5F30A /* Persistence.swift */; };
 		C3110E2227E9EB6A00F5F30A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3110E2127E9EB6A00F5F30A /* ContentView.swift */; };
-		C3110E2527E9EC3900F5F30A /* DiscordX.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C3110E2327E9EC3900F5F30A /* DiscordX.xcdatamodeld */; };
+		C3110E2527E9EC3900F5F30A /* XCord.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C3110E2327E9EC3900F5F30A /* XCord.xcdatamodeld */; };
 		C3DCE3CB251FBE3F008A8718 /* SwordRPC in Frameworks */ = {isa = PBXBuildFile; productRef = C3DCE3CA251FBE3F008A8718 /* SwordRPC */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		13F784FA2AE8761500F903C8 /* Connection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connection.swift; sourceTree = "<group>"; };
 		5028EA44244B181D003A1830 /* HelperFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelperFunctions.swift; sourceTree = "<group>"; };
 		5068E2DE244AA3C90012CCF7 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		50C6CBAF244974A400F10C5D /* DiscordX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiscordX.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		50C6CBAF244974A400F10C5D /* XCord.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XCord.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50C6CBB2244974A400F10C5D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		50C6CBB6244974A700F10C5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		50C6CBB9244974A700F10C5D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		50C6CBBE244974A700F10C5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		50C6CBBF244974A700F10C5D /* DiscordX.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DiscordX.entitlements; sourceTree = "<group>"; };
+		50C6CBBF244974A700F10C5D /* XCord.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = XCord.entitlements; sourceTree = "<group>"; };
 		50C6CBC8244975F200F10C5D /* Applescript.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Applescript.swift; sourceTree = "<group>"; };
-		C3110E1D27E9E95700F5F30A /* DiscordX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscordX.swift; sourceTree = "<group>"; };
+		C3110E1D27E9E95700F5F30A /* XCord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCord.swift; sourceTree = "<group>"; };
 		C3110E1F27E9EA6B00F5F30A /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		C3110E2127E9EB6A00F5F30A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C3110E2427E9EC3900F5F30A /* DiscordX.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DiscordX.xcdatamodel; sourceTree = "<group>"; };
@@ -51,7 +53,7 @@
 		50C6CBA6244974A400F10C5D = {
 			isa = PBXGroup;
 			children = (
-				50C6CBB1244974A400F10C5D /* DiscordX */,
+				50C6CBB1244974A400F10C5D /* XCord */,
 				50C6CBB0244974A400F10C5D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -59,25 +61,25 @@
 		50C6CBB0244974A400F10C5D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				50C6CBAF244974A400F10C5D /* DiscordX.app */,
+				50C6CBAF244974A400F10C5D /* XCord.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		50C6CBB1244974A400F10C5D /* DiscordX */ = {
+		50C6CBB1244974A400F10C5D /* XCord */ = {
 			isa = PBXGroup;
 			children = (
 				50C6CBB2244974A400F10C5D /* AppDelegate.swift */,
 				C3110E2127E9EB6A00F5F30A /* ContentView.swift */,
-				C3110E1D27E9E95700F5F30A /* DiscordX.swift */,
+				C3110E1D27E9E95700F5F30A /* XCord.swift */,
 				C3110E2727EA19FC00F5F30A /* Supporting Files */,
 				C3110E2627EA19D400F5F30A /* CoreData */,
 				50C6CBB6244974A700F10C5D /* Assets.xcassets */,
 				50C6CBBE244974A700F10C5D /* Info.plist */,
-				50C6CBBF244974A700F10C5D /* DiscordX.entitlements */,
+				50C6CBBF244974A700F10C5D /* XCord.entitlements */,
 				50C6CBB8244974A700F10C5D /* Preview Content */,
 			);
-			path = DiscordX;
+			path = XCord;
 			sourceTree = "<group>";
 		};
 		50C6CBB8244974A700F10C5D /* Preview Content */ = {
@@ -91,7 +93,7 @@
 		C3110E2627EA19D400F5F30A /* CoreData */ = {
 			isa = PBXGroup;
 			children = (
-				C3110E2327E9EC3900F5F30A /* DiscordX.xcdatamodeld */,
+				C3110E2327E9EC3900F5F30A /* XCord.xcdatamodeld */,
 				C3110E1F27E9EA6B00F5F30A /* Persistence.swift */,
 			);
 			path = CoreData;
@@ -103,6 +105,7 @@
 				50C6CBC8244975F200F10C5D /* Applescript.swift */,
 				5068E2DE244AA3C90012CCF7 /* Constants.swift */,
 				5028EA44244B181D003A1830 /* HelperFunctions.swift */,
+				13F784FA2AE8761500F903C8 /* Connection.swift */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
@@ -110,9 +113,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		50C6CBAE244974A400F10C5D /* DiscordX */ = {
+		50C6CBAE244974A400F10C5D /* XCord */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 50C6CBC2244974A700F10C5D /* Build configuration list for PBXNativeTarget "DiscordX" */;
+			buildConfigurationList = 50C6CBC2244974A700F10C5D /* Build configuration list for PBXNativeTarget "XCord" */;
 			buildPhases = (
 				50C6CBAB244974A400F10C5D /* Sources */,
 				50C6CBAC244974A400F10C5D /* Frameworks */,
@@ -122,12 +125,12 @@
 			);
 			dependencies = (
 			);
-			name = DiscordX;
+			name = XCord;
 			packageProductDependencies = (
 				C3DCE3CA251FBE3F008A8718 /* SwordRPC */,
 			);
 			productName = RPFX;
-			productReference = 50C6CBAF244974A400F10C5D /* DiscordX.app */;
+			productReference = 50C6CBAF244974A400F10C5D /* XCord.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -136,8 +139,9 @@
 		50C6CBA7244974A400F10C5D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				BuildIndependentTargetsInParallel = YES;
 				LastSwiftUpdateCheck = 1110;
-				LastUpgradeCheck = 1200;
+				LastUpgradeCheck = 1500;
 				ORGANIZATIONNAME = "Asad Azam";
 				TargetAttributes = {
 					50C6CBAE244974A400F10C5D = {
@@ -146,7 +150,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 50C6CBAA244974A400F10C5D /* Build configuration list for PBXProject "DiscordX" */;
+			buildConfigurationList = 50C6CBAA244974A400F10C5D /* Build configuration list for PBXProject "XCord" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -162,7 +166,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				50C6CBAE244974A400F10C5D /* DiscordX */,
+				50C6CBAE244974A400F10C5D /* XCord */,
 			);
 		};
 /* End PBXProject section */
@@ -172,8 +176,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50C6CBBA244974A700F10C5D /* Preview Assets.xcassets in Resources */,
-				50C6CBB7244974A700F10C5D /* Assets.xcassets in Resources */,
+				13F784F82AE840F900F903C8 /* Preview Assets.xcassets in Resources */,
+				13F784F72AE840F600F903C8 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -185,12 +189,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				5028EA45244B181D003A1830 /* HelperFunctions.swift in Sources */,
+				13F784FB2AE8761500F903C8 /* Connection.swift in Sources */,
 				50C6CBB3244974A400F10C5D /* AppDelegate.swift in Sources */,
 				C3110E2227E9EB6A00F5F30A /* ContentView.swift in Sources */,
 				50C6CBC9244975F200F10C5D /* Applescript.swift in Sources */,
 				C3110E2027E9EA6B00F5F30A /* Persistence.swift in Sources */,
-				C3110E2527E9EC3900F5F30A /* DiscordX.xcdatamodeld in Sources */,
-				C3110E1E27E9E95700F5F30A /* DiscordX.swift in Sources */,
+				C3110E2527E9EC3900F5F30A /* XCord.xcdatamodeld in Sources */,
+				C3110E1E27E9E95700F5F30A /* XCord.swift in Sources */,
 				5068E2DF244AA3C90012CCF7 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -232,9 +237,11 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -249,7 +256,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -293,9 +300,11 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -304,7 +313,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
@@ -317,23 +326,23 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = DiscordX/DiscordX.entitlements;
+				CODE_SIGN_ENTITLEMENTS = XCord/XCord.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 2020.9.30;
-				DEVELOPMENT_ASSET_PATHS = "\"DiscordX/Preview Content\"";
-				DEVELOPMENT_TEAM = CQZU37S3DP;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = A6HC4Y86NJ;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = DiscordX/Info.plist;
+				INFOPLIST_FILE = XCord/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				MARKETING_VERSION = 1.0.3;
-				PRODUCT_BUNDLE_IDENTIFIER = com.asad.DiscordX;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.errorerrorerror.xcord;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -343,23 +352,23 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = DiscordX/DiscordX.entitlements;
+				CODE_SIGN_ENTITLEMENTS = XCord/XCord.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 2020.9.30;
-				DEVELOPMENT_ASSET_PATHS = "\"DiscordX/Preview Content\"";
-				DEVELOPMENT_TEAM = CQZU37S3DP;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = A6HC4Y86NJ;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = DiscordX/Info.plist;
+				INFOPLIST_FILE = XCord/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				MARKETING_VERSION = 1.0.3;
-				PRODUCT_BUNDLE_IDENTIFIER = com.asad.DiscordX;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.errorerrorerror.xcord;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -368,7 +377,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		50C6CBAA244974A400F10C5D /* Build configuration list for PBXProject "DiscordX" */ = {
+		50C6CBAA244974A400F10C5D /* Build configuration list for PBXProject "XCord" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				50C6CBC0244974A700F10C5D /* Debug */,
@@ -377,7 +386,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		50C6CBC2244974A700F10C5D /* Build configuration list for PBXNativeTarget "DiscordX" */ = {
+		50C6CBC2244974A700F10C5D /* Build configuration list for PBXNativeTarget "XCord" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				50C6CBC3244974A700F10C5D /* Debug */,
@@ -408,13 +417,13 @@
 /* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
-		C3110E2327E9EC3900F5F30A /* DiscordX.xcdatamodeld */ = {
+		C3110E2327E9EC3900F5F30A /* XCord.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
 				C3110E2427E9EC3900F5F30A /* DiscordX.xcdatamodel */,
 			);
 			currentVersion = C3110E2427E9EC3900F5F30A /* DiscordX.xcdatamodel */;
-			path = DiscordX.xcdatamodeld;
+			path = XCord.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

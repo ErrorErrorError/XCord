@@ -1,6 +1,6 @@
 //
 //  Constants.swift
-//  DiscordX
+//  XCord
 //
 //  Created by Asad Azam on 28/9/20.
 //  Copyright © 2021 Asad Azam. All rights reserved.
@@ -22,7 +22,7 @@ var strictMode: Bool {
     set { UserDefaults.standard.set(newValue, forKey: "strictMode") }
 }
 
-// it will never stop the timer regardless of anything except if you kill DiscordX
+// it will never stop the timer regardless of anything except if you kill XCord
 /// true: timer will not stop
 /// false: timer will stop
 var flauntMode: Bool {
@@ -30,8 +30,9 @@ var flauntMode: Bool {
     set { UserDefaults.standard.set(newValue, forKey: "flauntMode") }
 }
 
-// some other window names of Xcode
+// Window names under xcode
 let xcodeWindowNames = [
+    "Xcode",
     "Simulator",
     "Instruments",
     "Accessibility Inspector",
@@ -82,4 +83,3 @@ let discordRPImageKeyDefault = "xcode"
 
 // Xcode application icon
 let discordRPImageKeyXcode = "xcode"
-
